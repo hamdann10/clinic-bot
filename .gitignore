@@ -1,0 +1,26 @@
+﻿# Environment & Secrets
+.env
+*.env
+*credentials*.json
+*service_account*.json
+token.json
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.log
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Google Cloud Service Account Keys & Local State
+clinic-automation-*.json
+*.db
+*.sqlite3
+.last_roi_digest_date
